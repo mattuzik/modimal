@@ -1,0 +1,69 @@
+@use '../helpers' as *;
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: var(--color-light);
+
+  animation-name: scrolling-header;
+  animation-fill-mode: both;
+  animation-timeline: scroll();
+  animation-range: rem(100) rem(200);
+
+  @keyframes scrolling-header {
+    to {
+      box-shadow: 0 0 0.15rem 0 var(--color-light);
+    }
+  }
+  
+  &__promo {
+    background-color: var(--color-green);
+    &-title {
+      text-align: center;
+      color: var(--color-light);
+      font-size: fluid(14, 12);
+    }
+    &-content {
+      padding-block: fluid(8, 0);
+    }
+  }
+
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding-block: fluid(24, 12);
+    background-color: var(--color-light);
+  }
+
+  &__navigation {
+    &-list {
+      display: flex;
+      gap: rem(30);
+    }
+    &-link {
+      font-size: fluid(16, 14);
+    }
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: fluid(30, 14);
+  }
+
+  &__action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__logo {
+    &-image {
+      width: fluid(175, 116);
+    }
+  }
+}

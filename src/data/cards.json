@@ -1,0 +1,53 @@
+[
+  {
+    "id": "0",
+    "image": "01",
+    "title": "tailored stretch",
+    "description": "turn it up pants",
+    "price": "180",
+    "colors": ["black", "light-blue", "green"]
+  },
+
+  {
+    "id": "1",
+    "image": "02",
+    "title": "Technical Silk",
+    "description": "Make A Splash",
+    "price": "120",
+    "colors": ["yellow", "blue", "black"]
+  },    
+  
+  {
+    "id": "2",
+    "image": "03",
+    "title": "Cool Weave",
+    "description": "Anywhere Dress",
+    "price": "210",
+    "colors": ["pink", "yellow", "green"]
+  },
+
+  {
+    "id": "3",
+    "image": "04",
+    "title": "Cool Dress",
+    "description": "Anywhere Dress",
+    "price": "210",
+    "colors": ["white", "black", "green"]
+  },
+  {
+    "id": "4",
+    "image": "05",
+    "title": "Cool Blause",
+    "description": "Anywhere Dress",
+    "price": "210",
+    "colors": ["light-blue", "white", "green"]
+  },
+  {
+    "id": "5",
+    "image": "06",
+    "title": "Summer Dress",
+    "description": "Anywhere Dress",
+    "price": "210",
+    "colors": ["white", "yellow", "green"]
+  }
+]

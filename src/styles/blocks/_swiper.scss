@@ -1,0 +1,29 @@
+@use '../helpers' as *;
+
+.swiper {
+  width: 100%;
+  max-width: var(--container-width);
+  padding-bottom: rem(40) !important;
+
+  @include mobile {
+    padding-bottom: rem(58) !important;
+  }
+
+  &-pagination-bullet {
+    --width: #{fluid(12, 10)};
+    width: var(--width) !important;
+    height: var(--width) !important;
+    background-color: var(--color-gray) !important;
+    opacity: 1 !important; 
+
+    margin: 0 8px !important;
+
+    @include mobile {
+      margin: 0 6px !important;
+    }
+
+    &-active {
+      background-color: var(--color-green) !important;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@use '../helpers' as *;
+
+.color {
+  --size: #{fluid(24, 16)};
+
+  border-radius: 50%;
+  background-color: gray;
+  @include square(var(--size));
+
+  &-black {
+    background-color: var(--color-black);
+  }
+
+  &-light-blue {
+    background-color: var(--color-light-blue);
+  }  
+  
+  &-light-green {
+    background-color: var(--color-light-green);
+  }
+
+  &-blue {
+    background-color: var(--color-blue);
+  }
+
+  &-green {
+    background-color: var(--color-green);
+  }
+
+  &-yellow {
+    background-color: var(--color-yellow);
+  }
+
+  &-pink {
+    background-color: var(--color-pink);
+  }
+
+  &-white {
+    background-color: var(--color-light);
+    border: 1px solid #bebebe;
+  }
+}

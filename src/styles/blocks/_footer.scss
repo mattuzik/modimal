@@ -1,0 +1,10 @@
+@use '../helpers' as *;
+
+.footer {
+  padding-block: fluid(24, 8);
+  background-color: var(--color-black);
+  color: var(--color-light);
+  &__title {
+    font-weight: 400;
+  }
+}

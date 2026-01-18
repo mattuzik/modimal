@@ -1,0 +1,22 @@
+// helpers
+@use 'normalize';
+@use 'variables';
+@use 'utils';
+@use 'globals';
+
+// header
+@use './blocks/header';
+@use './blocks/header-overlay';
+@use './blocks/burger-button';
+@use './blocks/accordion';
+
+// main
+@use './blocks/hero';
+@use './blocks/sellers';
+@use './blocks/card';
+@use './blocks/colors';
+@use './blocks/swiper';
+@use './blocks/collection';
+@use './blocks/follow';
+@use './blocks/footer';
+@use './blocks/favourite';

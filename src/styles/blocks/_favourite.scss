@@ -1,0 +1,16 @@
+@use '../helpers' as *;
+
+.favourite {
+  padding-top: rem(12);
+  padding-bottom:  fluid(88, 24);
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: rem(24);
+
+    @include mobile {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+}

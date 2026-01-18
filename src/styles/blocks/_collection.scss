@@ -1,0 +1,28 @@
+@use '../helpers' as *;
+
+.collection {
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: fluid(24, 16);
+  }
+
+  &__item {
+    position: relative;
+
+    &-button {
+      @include mobile-above {
+        position: absolute;
+        bottom: rem(16);
+        right: rem(16);
+      }
+    }
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: fluid(64, 24);
+  }
+}

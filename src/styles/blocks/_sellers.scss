@@ -1,0 +1,16 @@
+@use '../helpers' as *;
+
+.sellers {
+  &__promo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__cards {
+    //gap: fluid(24, 16);
+  }
+
+  &__link {
+    display: contents;
+  }
+}
