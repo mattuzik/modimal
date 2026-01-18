@@ -1,7 +1,7 @@
 ## RU:
 ### Запуск проекта:
 
-!Перед запуском нужно будет устрановить sass и vite 
+!Перед запуском нужно будет устрановить sass и vite в консоли
 
 Установка зависимостей: npm i;
 Компиляция sass: npm run sass-watch;
@@ -17,15 +17,16 @@
 А также карточки в слайдере рендерятся с информацией из файла json по пути modimal/src/data/card.json
 
 Технологии:
-- Html,
-- Sass,
-- Vite,
+- Html
+- Sass
+- Vite
 - js
+- json
 
 ## EN: 
 ### How to launch the project:
 
-!You need to install sass and vite before launch
+!You need to install sass and vite from npm manager before launch
 
 Installing dependencies: npm i;
 Watch sass: npm run sass-watch;
@@ -41,9 +42,11 @@ The page includes components such as:
 The cards in slides takes information and render from json file along the path modimal/src/data/card.json
 
 ### Technologies:
-- Html,
-- Sass,
-- Vite,
+- Html
+- Sass
+- Vite
 - js
+- json
+
 
 
