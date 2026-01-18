@@ -4,7 +4,7 @@
 ### Запуск проекта:
 
 !Перед запуском нужно будет устрановить sass и vite в консоли! \
-Для создания локального сервера либо зайдите в папку modimal > package.json и выберите режим "dev" в объекте "scripts", \
+Для создания локального сервера либо зайдите в папку modimal > package.json и выберите режим "dev" в объекте "scripts",
 либо же можно написать в консоль npm run dev, и тогда по адрессу http://localhost:5173/ откроется проект
 
 Проект представляет собой верстку главной страницы интернет-магазина одежды. \
@@ -26,8 +26,7 @@
 ### How to launch the project:
 
 !You need to install sass and vite from npm manager before launch! \
-For start the live server, open folder 'modimal' and here open the JSON file named package.json. In this file, you will see the "scripts" object. \
-Here you need select dev mode or open console (ctrl + j) and write here "npm run dev". The project will open at http://localhost:5173/ 
+For start the live server, open folder 'modimal' and here open the JSON file named package.json. In this file, you will see the "scripts" object. Here you need select dev mode. Also you can open console (ctrl + j) and write here "npm run dev". The project will open at http://localhost:5173/ 
 
 The project represents HTML layout of the main page of an online clothes shop. \
 The page includes components such as:
@@ -43,6 +42,7 @@ The cards in slides takes information and render from json file along the path m
 - Vite
 - js
 - json
+
 
 
 
