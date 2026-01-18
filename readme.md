@@ -6,10 +6,10 @@
 Установка зависимостей: npm i; \
 Компиляция sass: npm run sass-watch; \
 Для создания локального сервера зайдите в папку modimal > package.json и выберите режим "dev" в объекте "scripts", и \
-тогда по адрессу http://localhost:5173/ откроется проект. \
+тогда по адрессу http://localhost:5173/ откроется проект. 
 
 Проект представляет собой верстку главной страницы интернет-магазина одежды. \
-странице есть такие UI компоненты как: \
+странице есть такие UI компоненты как: 
 - Аккордеон
 - Мобильная навигация
 - Swiper слайдер
@@ -31,7 +31,7 @@
 Installing dependencies: npm i; \
 Watch sass: npm run sass-watch; \
 For start the live server, open folder 'modimal' and here open the JSON file named package.json. In this file, you will see the "scripts" object. \
-Here you need select dev mode, and the project will open at http://localhost:5173/ \
+Here you need select dev mode, and the project will open at http://localhost:5173/ 
 
 The project represents HTML layout of the main page of an online clothes shop. \
 The page includes components such as:
@@ -47,6 +47,7 @@ The cards in slides takes information and render from json file along the path m
 - Vite
 - js
 - json
+
 
 
 
