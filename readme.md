@@ -1,5 +1,5 @@
 ## RU:
-###Запуск проекта:
+### Запуск проекта:
 
 !Перед запуском нужно будет устрановить sass и vite 
 
@@ -22,8 +22,8 @@
 - Vite,
 - js
 
-##EN: 
-###How to launch the project:
+## EN: 
+### How to launch the project:
 
 !You need to install sass and vite before launch
 
@@ -40,9 +40,10 @@ The page includes components such as:
 
 The cards in slides takes information and render from json file along the path modimal/src/data/card.json
 
-###Technologies:
+### Technologies:
 - Html,
 - Sass,
 - Vite,
 - js
+
 
