@@ -1,7 +1,7 @@
 ## RU:
 ### Запуск проекта:
 
-!Перед запуском нужно будет устрановить sass и vite в консоли!
+!Перед запуском нужно будет устрановить sass и vite в консоли! \
 Для создания локального сервера зайдите в папку modimal > package.json и выберите режим "dev" в объекте "scripts", и \
 тогда по адрессу http://localhost:5173/ откроется проект. 
 
@@ -23,7 +23,7 @@
 ## EN: 
 ### How to launch the project:
 
-!You need to install sass and vite from npm manager before launch!
+!You need to install sass and vite from npm manager before launch! \
 For start the live server, open folder 'modimal' and here open the JSON file named package.json. In this file, you will see the "scripts" object. \
 Here you need select dev mode, and the project will open at http://localhost:5173/ 
 
@@ -41,6 +41,7 @@ The cards in slides takes information and render from json file along the path m
 - Vite
 - js
 - json
+
 
 
 
