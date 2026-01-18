@@ -1,7 +1,7 @@
 ## RU:
 ### Запуск проекта:
 
-!Перед запуском нужно будет устрановить sass и vite в консоли
+!Перед запуском нужно будет устрановить sass и vite в консоли!
 
 Установка зависимостей: npm i; \
 Компиляция sass: npm run sass-watch; \
@@ -26,7 +26,7 @@
 ## EN: 
 ### How to launch the project:
 
-!You need to install sass and vite from npm manager before launch \
+!You need to install sass and vite from npm manager before launch!
 
 Installing dependencies: npm i; \
 Watch sass: npm run sass-watch; \
@@ -47,6 +47,7 @@ The cards in slides takes information and render from json file along the path m
 - Vite
 - js
 - json
+
 
 
 
