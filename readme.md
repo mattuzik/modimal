@@ -1,3 +1,5 @@
+# Modimal - main page
+
 ## RU:
 ### Запуск проекта:
 
@@ -41,6 +43,7 @@ The cards in slides takes information and render from json file along the path m
 - Vite
 - js
 - json
+
 
 
 
