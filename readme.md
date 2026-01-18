@@ -1,4 +1,4 @@
-##RU:
+## RU:
 ###Запуск проекта:
 
 !Перед запуском нужно будет устрановить sass и vite 
@@ -45,3 +45,4 @@ The cards in slides takes information and render from json file along the path m
 - Sass,
 - Vite,
 - js
+
